@@ -1,0 +1,120 @@
+.homepage {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    background-color: #0047AB;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .hero-section {
+    background-color: #E8F0FE;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    color: #0047AB;
+    font-size: 2.5rem;
+  }
+  
+  .intro-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  
+  .contentHome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    background: #F0F0F0;
+  }
+  
+  .content-block {
+    width: 30%;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .content-block h2 {
+    color: #0047AB;
+  }
+  
+  .testimonials-section {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .cta-section {
+    background-color: #E8F0FE;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .cta-section button {
+    background-color: #0047AB;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cta-section button:hover {
+    background-color: #003080;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-media a {
+    margin: 0 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .content-block {
+        width: 80%;
+    }
+  }

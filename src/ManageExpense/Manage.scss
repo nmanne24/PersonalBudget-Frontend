@@ -1,0 +1,60 @@
+.expense-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+  }
+  
+  .form-group select, .form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .error-message {
+    color: red;
+    margin: 10px 0;
+  }
+  
+  .success-message {
+    color: green;
+    margin: 10px 0;
+  }
+  

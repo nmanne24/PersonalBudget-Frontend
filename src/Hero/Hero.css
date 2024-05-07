@@ -1,0 +1,37 @@
+.hero-container {
+  height: 150px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #0047AB;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hero-button:hover {
+  background-color: #0056b3;
+}
