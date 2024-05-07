@@ -41,7 +41,7 @@ function Visuals() {
 
       if (selectedMonth) {
         try {
-          const res = await axios.get(`http://localhost:3002/get-budgets/${userId}?month=${selectedMonth}`, {
+          const res = await axios.get(`https://personalbudget-backend.onrender.com/get-budgets/${userId}?month=${selectedMonth}`, {
             headers: {
               Authorization: `Bearer ${token}`,
             },
@@ -76,7 +76,7 @@ function Visuals() {
 
       if (selectedMonth) {
         try {
-          const res = await axios.get(`http://localhost:3002/get-expenses/${userId}?month=${selectedMonth}`, {
+          const res = await axios.get(`https://personalbudget-backend.onrender.com/get-expenses/${userId}?month=${selectedMonth}`, {
             headers: {
               Authorization: `Bearer ${token}`,
             },

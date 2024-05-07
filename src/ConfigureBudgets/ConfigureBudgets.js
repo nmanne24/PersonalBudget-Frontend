@@ -27,7 +27,7 @@ function ConfigureBudgets() {
       const token = localStorage.getItem("token");
 
       try {
-        const response = await axios.get(`http://localhost:3002/check-existing-budget/${userId}/${selectedMonth}/${category}`, {
+        const response = await axios.get(`https://personalbudget-backend.onrender.com/check-existing-budget/${userId}/${selectedMonth}/${category}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -67,7 +67,7 @@ function ConfigureBudgets() {
 
       const token = localStorage.getItem("token");
       await axios.post(
-        "http://localhost:3002/configure-budgets",
+        "https://personalbudget-backend.onrender.com/configure-budgets",
         {
           userId,
           months: selectedMonth,

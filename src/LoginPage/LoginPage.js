@@ -19,7 +19,7 @@ const LoginPage = (props) => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3002/login', formData);
+      const response = await axios.post('https://personalbudget-backend.onrender.com/login', formData);
       localStorage.setItem('userId', response.data.user._id.toString());
       localStorage.setItem('token', response.data.token);
       login();

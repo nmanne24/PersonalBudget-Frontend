@@ -18,7 +18,7 @@ function SignupPage() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:3002/Signup', formData);
+      const response = await axios.post('https://personalbudget-backend.onrender.com/Signup', formData);
       setSuccessMessage(response.data.message);
       setError('');
       navigate('/login');
